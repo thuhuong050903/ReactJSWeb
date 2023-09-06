@@ -1,0 +1,53 @@
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .home-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .home-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .home-card h2 {
+    margin-top: 10px;
+  }
+  
+  .home-card p {
+    margin: 5px 0;
+  }
+  
+  .card-buttons {
+    margin-top: 10px;
+  }
+  
+  .detail-button,
+  .add-to-cart-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px;
+    cursor: pointer;
+  }
+  
+  .detail-button:hover,
+  .add-to-cart-button:hover {
+    background-color: #45a049;
+  }
+  
+  

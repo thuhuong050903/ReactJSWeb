@@ -1,0 +1,48 @@
+.header-container {
+    background-color: #ffffff   ;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  
+  .logo {
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    font-size: large;
+    text-decoration: none;
+    color: #AA000A;
+    font-weight: bold;
+  }
+  
+  .user-actions .btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #AA000A;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-actions .btn:hover {
+    background-color: #c72e38;
+  }
+  
